@@ -14,9 +14,9 @@ If the dataset is not structured properly, use the `organize_data.py` script to 
 ## **Installation**
 First, clone the repository:
 
-`git clone https://github.com/YOUR_USERNAME/Steganography-Detection.git`
+`git clone https://github.com/7megaumka7/AI-steganography-detection.git`
 
-`cd Steganography-Detection`
+`cd AI-steganography-detection`
 
 
 Then, install all required dependencies:
