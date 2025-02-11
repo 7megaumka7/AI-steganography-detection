@@ -1,8 +1,8 @@
-# 🛠️ AI-Based Steganography Detector
+# AI-Based Steganography Detector
 This repository made for an AI-powered steganography detection system using deep learning. The project includes **training a Convolutional Neural Network (CNN)** on stego images and detecting hidden information inside digital images.  This project can be a great starting component of a Security Operations Center (SOC), Endpoint Detection & Response (EDR), or Security Orchestration, Automation, and Response (SOAR) system, by giving it an automated layer of anti-malware analysis in context of a security framework.
 
 
-## 📌 **Dataset**
+## **Dataset**
 We used the **Stego Images Dataset** from **Kaggle**:
 
 🔗 [Stego Images Dataset - Kaggle](https://www.kaggle.com/datasets/marcozuppelli/stegoimagesdataset)
@@ -54,17 +54,23 @@ Output: The script will classify the image as either:
 
 Enter image path: `C:/Users/User/Documents/test_image.png`
 
-🔍 Raw Model Output: 0.34
+Raw Model Output: 0.34
 
 ✅ Clean Image
 
 ## **File Structure:**
 /Steganography-Detection
-│── train.py       
-│── detect.py       
+
+│── train.py 
+
+│── detect.py 
+
 │── organize_data.py 
+
 │── requirements.txt 
+
 │── README.md     
+
 │── /dataset     
 
 ## **Requirements:**
@@ -81,7 +87,7 @@ TensorFlow Official Documentation: tensorflow.org
 
 Image Processing with OpenCV: docs.opencv.org
 
+If you want to find out more about the usage of CNNs, feel free to checkout [our article](https://ieeexplore.ieee.org/document/10811228)
 
-
-🛠️ Developed by: Umetaliyev Alisher
+Developed by: Umetaliyev Alisher
 📅 Last Updated: February 2025
