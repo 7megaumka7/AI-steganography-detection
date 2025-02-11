@@ -1,5 +1,6 @@
 # 🛠️ AI-Based Steganography Detector
-This repository made for an AI-powered steganography detection system using deep learning. The project includes **training a Convolutional Neural Network (CNN)** on stego images and detecting hidden information inside digital images.
+This repository made for an AI-powered steganography detection system using deep learning. The project includes **training a Convolutional Neural Network (CNN)** on stego images and detecting hidden information inside digital images.  This project can be a great starting component of a Security Operations Center (SOC), Endpoint Detection & Response (EDR), or Security Orchestration, Automation, and Response (SOAR) system, by giving it an automated layer of anti-malware analysis in context of a security framework.
+
 
 ## 📌 **Dataset**
 We used the **Stego Images Dataset** from **Kaggle**:
