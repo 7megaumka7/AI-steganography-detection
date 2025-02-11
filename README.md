@@ -40,13 +40,19 @@ The training process will:
 - Delete unnecessary files to save storage
 
 ## **Using the Detection Script**
+
+Make sure to manually edit the code, especially the part with the condition coefficent, cause it really varies based on the training proccess.
+
 Once the model is trained, run the detect.py script:
 
 `python detect.py`
 
 Input: Enter the image path when prompted.
+
 Output: The script will classify the image as either:
+
 🛑 Steganography Detected
+
 ✅ Clean Image
 
 
@@ -54,9 +60,9 @@ Output: The script will classify the image as either:
 
 Enter image path: `C:/Users/User/Documents/test_image.png`
 
-Raw Model Output: 0.34
+Raw Model Output: 0.34.
 
-✅ Clean Image
+✅ Clean Image.
 
 ## **File Structure:**
 /Steganography-Detection
@@ -81,13 +87,14 @@ Ensure that Python 3.10+ is installed. Use the following command to install depe
 
 ## **References:**
 
-Kaggle Dataset: [Stego Images Dataset - Kaggle](https://www.kaggle.com/datasets/marcozuppelli/stegoimagesdataset)
+Kaggle Dataset: [Stego Images Dataset - Kaggle](https://www.kaggle.com/datasets/marcozuppelli/stegoimagesdataset).
 
-TensorFlow Official Documentation: tensorflow.org
+TensorFlow Official Documentation: tensorflow.org.
 
-Image Processing with OpenCV: docs.opencv.org
+Image Processing with OpenCV: docs.opencv.org.
 
-If you want to find out more about the usage of CNNs, feel free to checkout [our article](https://ieeexplore.ieee.org/document/10811228)
+If you want to find out more about the usage of CNNs, feel free to checkout [our article](https://ieeexplore.ieee.org/document/10811228).
 
 Developed by: Umetaliyev Alisher
+
 📅 Last Updated: February 2025
